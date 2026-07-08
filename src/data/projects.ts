@@ -1,0 +1,113 @@
+export const projects = [
+  {
+    slug: "sparkles-home-pet-adoption-system",
+    title: "Sparkle's Home Pet Adoption System",
+    category: "Full-Stack Web Application",
+    summary:
+      "A full-stack pet adoption platform with public adoption pages, user accounts, admin workflows, donations, sponsorships, interview scheduling, and AI-assisted support.",
+    problem:
+      "Animal shelters need a more organized way to manage pet records, adoption applications, adopter communication, donations, and post-adoption tracking instead of relying on scattered manual processes.",
+    solution:
+      "Built a database-driven adoption management system with public adoption pages, user accounts, admin dashboards, application review workflows, interview scheduling, donation and sponsorship tracking, return handling, and AI-assisted support features.",
+    tech: [
+      "PHP",
+      "MySQL",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Gemini API",
+      "Google Calendar API",
+      "PHPMailer",
+    ],
+    features: [
+      "Pet browsing and detailed pet profiles",
+      "Adoption application workflow",
+      "Adopter questionnaire and pet matching",
+      "Favorites and user account system",
+      "Donation and sponsorship management",
+      "Admin dashboard for pets, users, and requests",
+      "Interview scheduling with Google Calendar integration",
+      "Email notifications using PHPMailer",
+      "AI FAQ chatbot for adoption-related questions",
+      "AI-assisted application summary for admins",
+      "Post-adoption monthly updates",
+      "Pet return request workflow",
+      "Responsive public-facing pages",
+    ],
+    images: [
+      "/images/sparkles-home-hero.png",
+      "/images/sparkles-home-adopt.png",
+      "/images/sparkles-home-pet-details.png",
+      "/images/sparkles-home-admin.png",
+      "/images/sparkles-home-applications.png",
+    ],
+    liveUrl: "https://sparkleshome.space/phps/home.php",
+    featured: true,
+  },
+  {
+    slug: "ai-email-assistant",
+    title: "AI Email Assistant",
+    category: "AI Automation Tool",
+    summary:
+      "An AI-powered support tool that helps users draft polished email replies with customizable tone and language options.",
+    problem:
+      "Customer support and business emails can take too much time to answer manually, especially when the responses are repetitive or need a consistent brand voice.",
+    solution:
+      "Built a responsive AI email assistant that turns incoming messages into clear, professional replies users can review, adjust, and copy quickly.",
+    tech: ["Next.js", "React", "Tailwind CSS", "Gemini API"],
+    features: [
+      "Email input area",
+      "Tone selector",
+      "Language selector",
+      "AI-generated reply output",
+      "Copy-ready response",
+      "Responsive interface",
+    ],
+    images: [
+      "/images/hero-ai-email.png",
+      "/images/ai-img1.png",
+      "/images/ai-img2.png",
+      "/images/ai-img3.png",
+    ],
+    liveUrl: "https://ai-support-desk-rho.vercel.app",
+    githubUrl: "https://github.com/maryjazzminemendoza/ai-support-desk",
+    featured: true,
+  },
+  {
+    slug: "aurelle-shopify-store",
+    title: "Aurelle Luxury Jewelry Store",
+    category: "Shopify Storefront",
+    summary:
+      "A premium Shopify storefront for a fictional luxury jewelry brand, customized with Liquid, HTML, CSS, and JavaScript to create an editorial e-commerce experience.",
+    problem:
+      "Most Shopify themes require significant customization to reflect a premium brand identity while maintaining performance, responsiveness, and a seamless shopping experience.",
+    solution:
+      "Customized Shopify's Craft theme into a luxury jewelry storefront featuring bespoke branding, editorial layouts, collection pages, product merchandising, responsive design, and an optimized customer shopping journey.",
+    tech: ["Shopify", "Liquid", "HTML", "CSS", "JavaScript"],
+    features: [
+      "Custom luxury homepage",
+      "Editorial About page",
+      "Journal / Blog experience",
+      "Premium collection layouts",
+      "Luxury product presentation",
+      "Custom contact page",
+      "Enhanced shopping cart",
+      "Responsive mobile design",
+      "Theme customization using Liquid",
+      "Brand-focused UI/UX",
+    ],
+    images: [
+      "/images/aurelle-hero.png",
+      "/images/aurelle-about.png",
+      "/images/aurelle-collections.png",
+      "/images/aurelle-product.png",
+      "/images/aurelle-journal.png",
+    ],
+    liveUrl: "https://aurelle-uerulho0.myshopify.com/",
+    password: "portfolio",
+    githubUrl: "",
+    featured: true,
+  },
+];
+
+export type Project = (typeof projects)[number];
